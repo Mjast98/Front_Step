@@ -3,16 +3,20 @@ clear
 echo "==============================================="
 echo "Tablice"
 echo "==============================================="
-NEWARRAY=("Piotr" "Monika" "Milosz")
+NEWARRAY=("Fronciak" "FrontStep" "Kurs")
 echo ${NEWARRAY[0]}
 echo ${NEWARRAY[1]}
 echo ${NEWARRAY[2]}
 echo ${NEWARRAY[*]}
-NEWARRAY[2]="Barabasz"
+
+NEWARRAY[2]="Przebranzowienie"
 echo ${NEWARRAY[*]}
+
 NEWARRAY[3]="Janusz"
 echo ${NEWARRAY[*]}
-NEWARRAY2=("A","B","C","D")
+
+NEWARRAY2=("E","F","G","H")
+
 echo $NEWARRAY2
 echo ${NEWARRAY2[1]}
 echo ${NEWARRAY[1]:2}

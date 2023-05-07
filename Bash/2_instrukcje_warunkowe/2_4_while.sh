@@ -4,7 +4,7 @@ echo "==============================================="
 echo "Petla While"
 echo "==============================================="
 licznik=0
-while [ $licznik -lt 10 ]; do
+while [ $licznik -lt 20 ]; do
     echo "Licznik: $licznik"
     (( licznik++ ))
 done

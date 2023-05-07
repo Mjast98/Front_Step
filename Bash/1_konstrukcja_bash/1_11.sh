@@ -3,9 +3,9 @@ clear
 echo "==============================================="
 echo "Rozszerzenia powloki"
 echo "==============================================="
-echo {one,two,three,blue}
-echo Pio{trek,trus,tr,run,nek,n}
-echo {wychowa,obwarza,pora}nek
+echo {Witaj,Dwa,Frontstep,Kurs}
+echo Fron{ciak,t,tStep,t_S,tek,ter}
+echo {Frontu,Automatyzu,Pracu}jacy
 echo "${!HO*}"
 # by lepiej zrozumieć, jak działa to polecenie, musimy wiedzieć, że ! to operator 
 # historyczny w powłoce (shell), który pozwala odwoływać się do poprzednich poleceń z historii. 
@@ -17,7 +17,7 @@ echo "${!HO*}"
 echo "${!N*}"
 export NOWA_ZM2="nowa"
 echo "${!N*}"
-nowa=10
+nowa=15
 echo $nowa
 echo ${nowa2:=22} # <- wypisanie razem z deklaracja w jednym
 echo $nowa2
@@ -35,7 +35,6 @@ type man # <-wyswietla lokalizacje danego polecenia
 echo $home
 echo ~
 echo ~+ # <- wyswietla obecny katalog
-# czemu echo ~- mi nie dziala ?
 echo `pwd`
 
 

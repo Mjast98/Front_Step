@@ -1,21 +1,15 @@
+#!/bin/bash
+clear
 echo "==============================================="
-echo "Ustawianie i uzywanie zmiennych"
+echo "Skrypt ze zmiennymi env"
 echo "==============================================="
 echo ""
-raport_creator="Mateusz Jastrzebski"
-raport_name="Wydajnosc systemu"
-
-DATABASENAME="raporty"
-DATABASEUSER="mjast"
-DATABASEPASS="123"
-STARTBASH=`date`
-echo "==============================================="
-echo "Raport tytul: $raport_name - utworzony $STARTBASH"
-echo "Wygenerowal raport: $raport_creator"
-echo "Raport zostal zapisany w: $PWD"
+echo "Login: $USER"
 echo ""
-echo "Raport zostanie zapisany do $DATABASENAME"
-echo "Logowanie uzytkownika $DATABASEUSER"
+echo "Path: $PWD"
+echo ""
+echo "Home dir: $HOME"
+echo ""
+echo "Aktualny Path: $PATH"
+echo ""
 
-ENDBASH=`date`
-echo "Operacja zakonczona: $ENDBASH"

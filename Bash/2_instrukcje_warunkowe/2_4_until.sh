@@ -5,7 +5,7 @@ echo "Petla Until"
 echo "==============================================="
 
 licznik=20
-until [ $licznik -lt 10 ]; do
+until [ $licznik -lt 20 ]; do
     echo "Licznik: $licznik"
     (( licznik-- ))
 done

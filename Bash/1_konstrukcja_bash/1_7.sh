@@ -4,17 +4,17 @@ echo "==============================================="
 echo "Globalne i lokalne zmienne srodowiskowe"
 echo "Expressions w bashu -> przyklady wstepne"
 echo "==============================================="
-x=5
-y=3
+x=10
+y=2
 command < input_file.txt
 #< (znak mniejszości) - służy do przekierowania danych wejściowych z pliku do polecenia
 command << EOF
-Here are some input lines
-This is the second line
+Tutaj sa jakies linie znakow
+A to jest druga linia
 EOF
 #<< (podwójny znak mniejszości) - służy do przekierowania danych wejściowych z 
 #napisu do polecenia
-command <<< "some input string"
+command <<< "jakis input string"
 #<<< (potrójny znak mniejszości) - służy do przekierowania danych wejściowych z napisu 
 #bezpośrednio do polecenia, ale bez potrzeby tworzenia podprocesu.
 

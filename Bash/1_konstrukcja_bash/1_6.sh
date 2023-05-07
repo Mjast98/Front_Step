@@ -4,20 +4,20 @@ echo "==============================================="
 echo "Dzialania arytmetyczne"
 echo "Expressions w bashu -> przyklady wstepne"
 echo "==============================================="
-expr 2 + 2
-#expr 2 + 2 * 5 ZLE !
-expr 2 + 2 \* 5
-#expr (2 + 2) \* 5 ZLE !
-expr \( 2 + 2 \) \* 5
-expr \( 2 + 2 \) \* 5
+expr 2 + 4
+#expr 2 + 4 * 5 ZLE !
+expr 2 + 4 \* 5
+#expr (2 + 4) \* 5 ZLE !
+expr \( 2 + 4 \) \* 10
+expr \( 2 + 4 \) \* 10
 echo ""
 read -n 1 -s -r -p "Nacisnij dowolny klawisz aby kontynuowac"
 clear
 echo "==============================================="
 echo "Zmienne"
 echo "==============================================="
-x=10
-y=5
+x=5
+y=15
 echo "x=${x}, y=$y" #klamrami moge odseparowac zmienna od przecinka zeby bash go dobrze odczytal
 echo ""
 read -n 1 -s -r -p "Nacisnij dowolny klawisz aby kontynuowac"

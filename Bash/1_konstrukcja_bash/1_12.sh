@@ -1,36 +1,36 @@
 #!/bin/bash
 clear
 echo "==============================================="
-echo "Typy zmiennych - definicja jawna i niejawna"
+echo "ZMIENNE - definicja jawna i niejawna"
 echo "==============================================="
-var1=22
-declare -p var1
-expr $var1 + 22
-var1="ss"
-expr $var1 + 22
-declare -i var2=22
-declare -p var2
-expr $var2 + 22
-declare -p var2
-declare +i var2
-declare -p var2
-echo $var2
-declare -i var2
-var2="Ala"
-echo $var2
-declare -p var2
-declare +i var2
-declare -p var2
-var2="Ala"
-echo $var2
-declare -r var3="22"
-expr $var3 + 22
-var3="33"
+var_1=28
+declare -p var_1
+expr $var_1 + 11
+var="ss"
+expr $va_1 + 11
+declare -i var_2=11
+declare -p var_2
+expr $var_2 + 11
+declare -p var_2
+declare +i var_2
+declare -p var_2
+echo $var_2
+declare -i var_2
+var_2="Ala"
+echo $var_2
+declare -p var_2
+declare +i var_2
+declare -p var_2
+var_2="Ala"
+echo $var_2
+declare -r var_3="22"
+expr $var_3 + 11
+var_3="29"
 # nie dam rady zmienic bo jest -r <- read only
-readonly var4="55"
-expr $var4 + 22
-var4="66"
-
+readonly var_4="66"
+expr $var_4 + 11
+var4="78"
+# co robi -i +i -p ?
 
 
 
