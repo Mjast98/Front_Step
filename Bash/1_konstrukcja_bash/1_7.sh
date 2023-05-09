@@ -2,7 +2,6 @@
 clear
 echo "==============================================="
 echo "Globalne i lokalne zmienne srodowiskowe"
-echo "Expressions w bashu -> przyklady wstepne"
 echo "==============================================="
 x=10
 y=2

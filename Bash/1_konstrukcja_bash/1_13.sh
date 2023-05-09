@@ -22,3 +22,4 @@ echo ${NEWARRAY2[1]}
 echo ${NEWARRAY[1]:2}
 NEWARRAY3=("A A" "B B" "C C")
 echo ${NEWARRAY3[2]}
+

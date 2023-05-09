@@ -18,7 +18,7 @@ echo "Kto wygenerowal: $raport_creator"
 echo "Raport zapisany w: $PWD"
 echo ""
 echo "Raport zostanie zapisany w: $DATABASENAME"
-echo "User $DATABASEUSER"
+echo "User: $DATABASEUSER"
 
 ENDBASH=`date`
 echo "Operacja zakonczona: $ENDBASH"

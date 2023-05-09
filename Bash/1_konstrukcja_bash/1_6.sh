@@ -7,8 +7,7 @@ echo "==============================================="
 expr 2 + 4
 #expr 2 + 4 * 5 ZLE !
 expr 2 + 4 \* 5
-#expr (2 + 4) \* 5 ZLE !
-expr \( 2 + 4 \) \* 10
+#expr (2 + 4) \* 10 ZLE !
 expr \( 2 + 4 \) \* 10
 echo ""
 read -n 1 -s -r -p "Nacisnij dowolny klawisz aby kontynuowac"
@@ -16,11 +15,14 @@ clear
 echo "==============================================="
 echo "Zmienne"
 echo "==============================================="
-x=5
-y=15
-echo "x=${x}, y=$y" #klamrami moge odseparowac zmienna od przecinka zeby bash go dobrze odczytal
+
+
+echo "x=${x}, y=$y" 
+#klamrami moge odseparowac zmienna 
+# od przecinka zeby bash go dobrze odczytal
 echo ""
-read -n 1 -s -r -p "Nacisnij dowolny klawisz aby kontynuowac"
+echo "Nacisnij dowolny klawisz aby kontynuowac"
+read 
 clear
 echo "==============================================="
 echo "Dodawanie"
@@ -45,25 +47,25 @@ echo "5. $x % $y = $wynik"
 echo "==============================================="
 echo "Potegowanie"
 wynik=$(( x ** y ))
-echo "6. $x ** $y = $wynik"
+echo "6. $x * $y = $wynik"
 echo "==============================================="
 echo "Pre inkrementacja"
 #Najpierw wartpsc jest dodawana a pozniej wyswietlany jest wynik
 wynik=$(( ++x ))
-echo "7. $x = $wynik"
+echo "7. $x po $wynik"
 echo "==============================================="
 echo "Post inkrementacja"
 #najpierw wyswietlany jest wynik a pozniej wartosc jest dodawana
 wynik=$(( x++ ))
-echo "8. $x = $wynik"
+echo "8. $x po $wynik"
 echo "==============================================="
 echo "Pre dekrementacja"
 #najpierw wartosc jest odejmowana a pozniej wyswietlany jest wynik
 wynik=$(( --x ))
-echo "9. $x = $wynik"
+echo "9. $x po $wynik"
 echo "==============================================="
 echo "Post dekrementacja"
 #najpierw wyswietlany jest wynik a pozniej wartosc jest odejmowana
 wynik=$(( x-- ))
-echo "10. $x = $wynik"
+echo "10. $x po $wynik"
 

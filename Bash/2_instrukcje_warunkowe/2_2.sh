@@ -10,7 +10,7 @@ randomNum=$((( RANDOM % 10) +1 )) #szukana liczba
 # po nawiasie piszemy +1 aby 
 
 if [ "$1" -eq "$randomNum" ] ; then
-    echo "Zgadles szukana liczba $randomNum"
+    echo "Zgadles szukana liczba to: $randomNum"
 fi
-echo "Twoja liczba to: $1 a szukana to $randomNum"
+echo "Twoja liczba to: $1 a szukana to: $randomNum"
 echo "==============================================="
